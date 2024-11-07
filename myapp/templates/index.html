@@ -1,0 +1,22 @@
+{% load static %}
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="{% static 'css/styles.css'%}">
+    <meta charset="UTF-8"/>
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Django</title>
+</head>
+<body>
+<h2>Welcome to Django</h2>
+<p><span>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae corporis esse facilis ipsam libero, molestias nostrum obcaecati perspiciatis porro possimus quas quod, sequi tempora! Cupiditate molestias neque quisquam ullam ut.</span><span>Adipisci architecto fugiat modi ratione tempora. Architecto cupiditate debitis doloremque ducimus eveniet illum impedit inventore iure laborum molestiae nostrum perspiciatis praesentium quidem ratione recusandae reprehenderit sequi, ut veniam vero voluptas.</span><span>Ad aliquid animi cons equuntur cum cupiditate dignissimos distinctio dolore eaque eveniet excepturi illum inventore ipsam iure magnam magni necessitatibus nobis nulla omnis possimus quia reprehenderit sed, similique, soluta temporibus unde.</span><span>Adipisci consequuntur dolorum hic magnam nobis optio quaerat recusandae, reprehenderit. A adipisci, at debitis eligendi facere id inventore laborum nemo nobis non numquam quas quis rem, reprehenderit unde veniam voluptatem!</span><span>Facilis, soluta veniam? Earum quia quo saepe sed sequi. Ad assumenda beatae blanditiis doloremque eligendi expedita explicabo fuga ipsum libero neque nulla pariatur, praesentium quae quasi quia quisquam rerum tempore?</span><span>Atque eos repudiandae suscipit. Ab consequuntur exercitationem fuga id nesciunt numquam sed. Consequatur consequuntur cum cupiditate dicta, est facere, id incidunt ipsum natus nobis pariatur perferendis quibusdam recusandae reprehenderit, sequi.</span><span>Aliquid facere itaque minus nobis quae, totam vitae! Accusamus ad aliquam consequuntur in inventore iure laboriosam laborum, libero nemo, obcaecati, odio optio quidem quo similique vel vero voluptatibus. Consequuntur, maxime.</span><span>Accusamus, aliquam atque consequatur cum dignissimos dolore dolores eius, exercitationem facilis incidunt laudantium libero, magnam nam quas similique tempora vel? Consectetur eos rem rerum vitae. Dolore magnam neque numquam veritatis?</span></p>
+<a href="{% url 'about_us' %}">About</a>
+<a href="{% url 'our_contacts' %}">contact</a>
+<a href="{% url 'our_services' %}">Services</a>
+<img src="{% static 'images/car 1.jpg' %}" alt="">
+<img src="{% static 'images/car 2.jpg' %}" alt="">
+<a href="{% url 'my_body' %}">body</a>
+</body>
+</html>
